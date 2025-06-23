@@ -1,3 +1,0 @@
-# Johdanto
-
-Tässä dokumentissa esitellään todo-tehtävä sovellusprojekti, joka on suunniteltu auttamaan käyttäjiä hallitsemaan tehtäviään tehokkaasti. Sovellus tarjoaa käyttäjäystävällisen käyttöliittymän, jonka avulla käyttäjät voivat lisätä, muokata ja poistaa tehtäviä sekä merkitä ne suoritetuiksi. Projekti on kehitetty modernilla teknologialla ja se on suunniteltu skaalautuvaksi ja helposti ylläpidettäväksi.
