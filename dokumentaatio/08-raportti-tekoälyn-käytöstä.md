@@ -1,26 +1,46 @@
-# 08 – Raportti tekoälyn käytöstä
+## 🤖 Tekoälyn käyttö projektissa
 
-## Tekoälyn käyttöön liittyvät tavoitteet
+Tässä projektissa tekoälyä hyödynnettiin monipuolisesti sisällöntuotannossa ja ideoinnissa:
 
-Tavoitteena oli hyödyntää tekoälyä käännöksissä, täytetekstien ja tuotekuvausten luonnissa sekä muutamien kuvien tuottamisessa. Tekoäly nopeutti työskentelyä huomattavasti, vaikka tuotoksia piti tarkistaa ja muokata. Erityisesti oikeinkirjoituksen ja pilkutuksen kanssa tekoäly oli hyödyllinen. Suunnittelin tekoälyn käytön niin, että keskityin niihin osa-alueisiin, joissa siitä oli eniten hyötyä, mutta teknisissä WordPress-ongelmissa halusin oppia itse.
+---
 
-## Tekoälyn valinta ja valinnan perustelu
+### 🎯 Tavoitteet
 
-Valitsin [Gemini 1.5 Flash](https://gemini.google.com/app?hl=fi) -mallin tekstin tuottamiseen ja selityksiin, koska se on ilmainen ja tehokas. Jos Gemini unohti kontekstin, käytin [Gemma 2 9B -mallia](https://lmstudio.ai/model/gemma-2-9b) [LM Studiossa](https://lmstudio.ai). Kuvien tekoon käytin [Fooocus AI](https://github.com/lllyasviel/Fooocus), joka perustuu Stable Diffusion XL -arkkitehtuuriin ja käyttää [Gradio](https://www.gradio.app) käyttöliittymää. Käännöksiin käytin [DeepL Translate](https://www.deepl.com/en/translator), joka tuottaa laadukkaita käännöksiä.
+Tavoitteena oli käyttää tekoälyä käännöksissä, täytetekstien ja tuotekuvausten luonnissa sekä placeholder-kuvien tuottamisessa. Halusin nopeuttaa työskentelyä ja varmistaa tekstien oikeakielisyyden, mutta teknisissä ongelmissa keskityin omaan oppimiseen.
 
-## Tekoälyn käyttöönotto ja soveltaminen
+---
 
-Tekoälyä käytettiin täytetekstien ja tuotekuvausten luonnissa sekä käännöksissä. Esimerkiksi etusivun esittelyteksti laadittiin tekoälyn avulla. Kuvien tekoon annettiin yksityiskohtainen prompti, jonka perusteella Fooocus AI tuotti tuotekuvan. Käännökset tehtiin DeepL:llä ja muokattiin tarvittaessa. Haasteena oli erityisesti Gemini-mallin kontekstin unohtaminen, jonka ratkaisin käyttämällä Gemma-mallia LM Studiossa jatkuvalla kontekstilla.
+### 🛠️ Valinnat ja perustelut
 
-## Tulokset ja tulosten analyysi
+- **Tekstin tuottaminen:** [Gemini 1.5 Flash](https://gemini.google.com/app?hl=fi) – ilmainen, nopea ja tehokas erityisesti selityksissä ja tekstin ideoinnissa.
+- **Kontekstin hallinta:** [Gemma 2 9B](https://lmstudio.ai/model/gemma-2-9b) + [LM Studio](https://lmstudio.ai) – kun Gemini unohti keskustelun aiheen, käytin tätä mallia jatkuvaan kontekstiin.
+- **Kuvien luonti:** [Fooocus AI](https://github.com/lllyasviel/Fooocus) (Stable Diffusion XL -pohjainen) + [Gradio](https://www.gradio.app) – tuotekuvien ja placeholderien tekoon.
+- **Käännökset:** [DeepL Translate](https://www.deepl.com/en/translator) – laadukkaat ja luonnolliset käännökset.
 
-Tekoäly nopeutti työskentelyä ja paransi tekstien laatua. Ohjeiden ja pyyntöjen pitäminen yksinkertaisina auttoi saamaan hyviä tuloksia. Tekoälyn käyttö mahdollisti selkeämmät ja paremmin kirjoitetut kielivaihtoehdot sekä laadukkaat placeholder-kuvat.
+---
 
-## Reflektio ja oma oppiminen
+### 💡 Käyttöönotto ja soveltaminen
 
-Tekoälyn käyttö ei tuonut uusia haasteita, koska olin jo aiemmin käyttänyt vastaavia työkaluja. Suosittelen muille opiskelijoille mallien toimintaperiaatteisiin perehtymistä ja selkeiden ohjeiden antamista. Mallinhallintaohjelmien käyttö kannattaa opetella, jotta tekoälystä saa parhaan hyödyn.
+- **Tekstit:** Esittelytekstit, ohjeet ja tuotekuvaukset tuotettiin Gemini-mallilla, jonka jälkeen ne tarkistettiin ja muokattiin käsin.
+- **Käännökset:** DeepL:llä käännettiin tekstit sujuvasti suomesta englantiin ja takaisin.
+- **Kuvat:** Fooocus AI:lla luotiin yksityiskohtaisilla promteilla placeholder-kuvia tuotteille.
+- **Ideointi:** Tekoäly auttoi myös dokumentaation rakenteen ja sisällön suunnittelussa.
 
-## Liitteet, lähteet ja linkit
+---
+
+### 📈 Tulokset ja analyysi
+
+Tekoäly nopeutti työskentelyä ja paransi tekstien laatua. Selkeät ja yksinkertaiset ohjeet tuottivat parhaan lopputuloksen. Tekoälyn avulla sain aikaan selkeämmät kieliversiot ja laadukkaat placeholder-kuvat.
+
+---
+
+### 🔍 Reflektio ja oppiminen
+
+Tekoälyn käyttö oli sujuvaa, koska olin jo aiemmin käyttänyt vastaavia työkaluja. Suosittelen muille opiskelijoille mallien toimintaperiaatteisiin perehtymistä ja selkeiden ohjeiden antamista. Mallinhallintaohjelmien käyttö kannattaa opetella, jotta tekoälystä saa parhaan hyödyn.
+
+---
+
+### 📎 Liitteet, lähteet ja linkit
 
 - [Gemini 1.5 Flash](https://gemini.google.com/app?hl=fi)
 - [DeepL Translate](https://www.deepl.com/en/translator)
@@ -30,4 +50,4 @@ Tekoälyn käyttö ei tuonut uusia haasteita, koska olin jo aiemmin käyttänyt 
 - [LM Studio](https://lmstudio.ai)
 - [Pinokio](https://pinokio.computer) (ei käytetty tässä projektissa, mutta suositeltava Fooocusin käyttöönottoon)
 
-Liitteinä: koodinäytteet, kuvakaappaukset, esimerkkipromptit ja tekoälyllä
+Liitteinä: koodinäytteet, kuvakaappaukset, esimerkkipromptit ja tekoälyllä tuotetut
