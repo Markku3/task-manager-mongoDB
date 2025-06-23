@@ -17,7 +17,7 @@ CRUD-toiminnot • Käyttäjätunnukset • MongoDB • Responsiivinen käyttöl
 
 | 📄 | Osa | Linkki |
 |----|-----|--------|
-| 1️⃣ | **Johdanto** | [01-johdanto.md](./01-johdanto.md) |
+| 1️⃣ | **Johdanto** | [01-johdanto.md](./dokumentaatio/01-johdanto.md) |
 | 2️⃣ | **Suunnitelma** | [02-suunnitelma.md](./02-suunnitelma.md) |
 | 3️⃣ | **Työnvaiheet** | [03-työnvaiheet.md](./03-työnvaiheet.md) |
 | 4️⃣ | **Käyttöönotto** | [04-käyttöönotto.md](./04-käyttöönotto.md) |
