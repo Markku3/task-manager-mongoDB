@@ -51,10 +51,15 @@ Tämä projekti on yksinkertainen web-pohjainen tehtävienhallintasovellus (todo
 - `db.js` – Tietokantayhteys
 - `package.json` – Projektin riippuvuudet ja skriptit
 
-## Lisenssi
+## 🗓 Gantt-kaavio (viikkotasolla)
 
-Tämä projekti on tarkoitettu kouluprojektiksi ja vapaasti muokattavissa omaan käyttöön.
+![Muokkaaminen](../kuvat/gantt_kuva_viikkotasolla.png)
 
----
+## 🗓 Ulkonäkö 
 
-**Katso tarkemmat ohjeet ja dokumentaatio kansiosta `/docs` (esim. 01-johdanto.md, 04-käyttöönotto.md jne.).**
+![Kirjautuminen](../kuvat/etusivu.png)
+![Etusivu](../kuvat/taskSivu.png)
+![Personal](../kuvat/personal.png)
+![Muokkaus](../kuvat/edit.png)
+![Hampurilaismenu](../kuvat/hamppari.png)
+
