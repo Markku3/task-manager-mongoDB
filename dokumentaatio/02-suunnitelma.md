@@ -117,7 +117,7 @@ Sovelluksen tavoitteena on:
 
 | Toiminnallisuus | Tekninen toteutus | Syy |
 |---|---|---|
-| Tehtävien hallinta | REST API, MONGODB | Tehokas ja turvallinen tiedonhallinta |
+| Tehtävien hallinta | REST API, MongoDB | Tehokas ja turvallinen tiedonhallinta |
 | Käyttäjäautentikointi | express-session, bcrypt | Turvallinen kirjautuminen |
 | Responsiivinen UI | CSS, EJS | Toimii eri laitteilla |
 
