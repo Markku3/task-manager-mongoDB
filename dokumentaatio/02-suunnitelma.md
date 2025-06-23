@@ -110,7 +110,7 @@ Sovelluksen tavoitteena on:
 **Tekniset ratkaisut:**
 
 - **Backend:** Node.js & Express
-- **Tietokanta:** SQLite
+- **Tietokanta:** MongoDB
 - **Frontend:** EJS, HTML, CSS, JavaScript
 - **Autentikointi:** express-session ja bcrypt
 - **Responsiivisuus:** CSS
