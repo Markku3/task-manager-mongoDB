@@ -14,7 +14,7 @@ Tämä projekti on yksinkertainen web-pohjainen tehtävienhallintasovellus (todo
 
 1. **Kloonaa repositorio:**
    ```bash
-   git clone https://github.com/<käyttäjänimi>/<repo>.git
+   git clone https://github.com/Markku3/task-manager-mongoDB.git
    cd <repo>
    ```
 
@@ -25,8 +25,8 @@ Tämä projekti on yksinkertainen web-pohjainen tehtävienhallintasovellus (todo
 
 3. **Luo .env-tiedosto ja määritä MongoDB-yhteys:**
    ```
-   MONGODB_URI=mongodb://localhost:27017/naytto
-   SESSION_SECRET=oma_salainen_avain
+   MONGODB_URI=mongodb://localhost:27017/xxxxx
+   SESSION_SECRET=xxxxxx
    ```
 
 4. **Käynnistä sovellus:**
@@ -62,4 +62,3 @@ Tämä projekti on yksinkertainen web-pohjainen tehtävienhallintasovellus (todo
 ![Personal](../kuvat/personal.png)
 ![Muokkaus](../kuvat/edit.png)
 ![Hampurilaismenu](../kuvat/hamppari.png)
-

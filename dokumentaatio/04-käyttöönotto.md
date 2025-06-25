@@ -1,6 +1,6 @@
 # 04 – Käyttöönotto
 
-Tässä kuvataan, miten tehtävienhallintasovellus otetaan käyttöön ja millainen olisi tyypillinen asiakaskokemus käyttöönotossa.
+Tässä kuvataan, miten tehtävienhallintasovellus otetaan käyttöön ja millainen olisi tyypillinen asiakaskokemus käyttöönotossa (vaikka minulla ei ollut projektissa oikeaa asiaskasta).
 
 ---
 

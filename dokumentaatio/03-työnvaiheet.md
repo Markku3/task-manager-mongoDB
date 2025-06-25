@@ -1,11 +1,11 @@
 # 03 – Työnvaiheet
 
-Tässä osiossa kuvataan tehtävienhallintasovelluksen toteutuksen päävaiheet ja eteneminen. Työvaiheet on jaettu viikoittaisiin osioihin, ja jokaisessa vaiheessa on kerrottu tärkeimmät tehtävät ja ratkaisut.
+Tässä osiossa kuvataan tehtävienhallintasovelluksen toteutuksen päävaiheet ja eteneminen. Työvaiheet on jaettu viikoittaisiin osioihin, sillä suunnittelin työskenteleväni joka päivä vähintään 5h aktiivisesti projektin parissa. Jokaisessa vaiheessa on kerrottu tärkeimmät tehtävät ja ratkaisut.
 
 ## Vaihe 1: Suunnittelu (viikko 1)
 
 **Vaatimusten määrittely:**  
-Määriteltiin sovelluksen ydintoiminnot: käyttäjätunnukset, tehtävien lisääminen, muokkaus, poisto ja merkitseminen tehdyksi. Päätettiin käyttää Node.js:ää, Expressiä ja MongoDB:tä.
+Määriteltiin sovelluksen ydintoiminnot: käyttäjätunnukset, tehtävien lisääminen, muokkaus, poisto ja merkitseminen tehdyksi. Päätin käyttää Node.js:ää, Expressiä ja MongoDB:tä (MondoDB Compass).
 
 **Visuaalisen ilmeen suunnittelu:**  
 Luotiin moderni ja selkeä ulkoasu. Värimaailmaksi valittiin tummat sävyt ja neon-korostukset. Fontit ja ikonit valittiin tukemaan selkeyttä ja käytettävyyttä.
@@ -33,7 +33,7 @@ Toteutettiin rekisteröityminen, kirjautuminen ja istunnon hallinta. Salasanat t
 
 **Tehtävien CRUD:**  
 Rakennettiin tehtävien lisääminen, muokkaus, poisto ja merkitseminen tehdyksi.  
-Toteutettiin käyttäjäkohtaiset tehtävälistat.
+Toteutettiin käyttäjäkohtaiset tehtävälistat (eli todot).
 
 **Käyttöliittymä:**  
 Rakennettiin responsiivinen käyttöliittymä EJS:llä ja CSS:llä. Lisättiin hamburger-valikko ja tehtävälistan suodatus.
@@ -68,4 +68,4 @@ Aloitettiin sovelluksen käytön seuranta ja käyttäjäpalautteen kerääminen.
 
 ## Yhteenveto
 
-Projektin toteutus eteni suunnitelman mukaisesti vaihe vaiheelta. Suunnitteluvaiheessa määriteltiin selkeät tavoitteet ja toiminnot, joiden pohjalta kehitys eteni. Kehitysvaiheessa keskityttiin ydintoimintoihin ja käyttöliittymän selkeyteen. Testausvaiheessa varmistettiin toimivuus ja tietoturva. Julkaisun jälkeen sovellusta seurataan ja kehitetään edelleen käyttäjäpalautteen perusteella.
+Projektin toteutus eteni suunnitelman mukaisesti vaihe vaiheelta. Suunnitteluvaiheessa määritin selkeät tavoitteet ja toiminnot, joiden pohjalta kehitys eteni. Kehitysvaiheessa keskityttiin ydintoimintoihin ja käyttöliittymän selkeyteen. Testausvaiheessa varmistettiin toimivuus ja tietoturva. Julkaisun jälkeen sovellusta seurataan ja kehitetään edelleen käyttäjäpalautteen perusteella.

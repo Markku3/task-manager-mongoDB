@@ -26,6 +26,3 @@ CRUD-toiminnot • Käyttäjätunnukset • MongoDB • Responsiivinen käyttöl
 | 7️⃣ | **Itsearviointi** | [07-itsearviointi.md](./07-itsearviointi.md) |
 | 8️⃣ | **Raportti tekoälyn käytöstä** | [08-raportti-tekoälyn-käytöstä.md](./08-raportti-tekoälyn-käytöstä.md) |
 
----
-
-> **Syvenny dokumentaatioon yllä olevista linkeistä ja

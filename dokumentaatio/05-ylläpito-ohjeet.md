@@ -1,15 +1,11 @@
 # 05 – Ylläpito-ohjeet
 
-Tässä ohjeessa kerrotaan, miten tehtävienhallintasovellusta ylläpidetään ja pidetään toimivana. Ohjeet on suunnattu sovelluksen ylläpitäjälle tai kehittäjälle.
-
----
-
 ## 1. Käyttäjien ja tehtävien hallinta
 
 - **Käyttäjät:**  
-  Käyttäjät voivat rekisteröityä ja hallita omia tehtäviään. Tarvittaessa voit poistaa käyttäjiä suoraan tietokannasta (MongoDB).
+  Käyttäjät voivat rekisteröityä ja hallita omia tehtäviään. Tarvittaessa voit poistaa käyttäjiä suoraan tietokannasta (MongoDB, tai GDPR -sivulla olevaan sähköpostiin yhteyttä).
 - **Tehtävät:**  
-  Tehtävien lisääminen, muokkaaminen ja poistaminen tapahtuu sovelluksen käyttöliittymässä. Jos tehtäviä tarvitsee muokata suoraan, käytä MongoDB:n hallintatyökaluja.
+  Tehtävien lisääminen, muokkaaminen ja poistaminen tapahtuu sovelluksen käyttöliittymässä. Jos tehtäviä tarvitsee muokata suoraan, käytä MongoDB:n hallintatyökaluja (MongoBD Compass).
 
 ## 2. Tietokannan ylläpito
 
@@ -43,9 +39,7 @@ Tässä ohjeessa kerrotaan, miten tehtävienhallintasovellusta ylläpidetään j
 - **Lokit:**  
   Tarkista palvelimen lokit mahdollisten virheiden varalta.
 - **Palvelimen tila:**  
-  Seuraa palvelimen muistia ja prosessorikuormaa (esim. `htop` tai palveluntarjoajan hallintapaneeli).
-- **Analytiikka:**  
-  Voit liittää Google Analyticsin tai muun analytiikkatyökalun käyttöliittymään, jos haluat seurata käyttöä.
+  Seuraa palvelimen muistia ja prosessorikuormaa (esim. palveluntarjoajan hallintapaneeli).
 
 ## 5. Yleiset ylläpitotoimet
 
@@ -57,14 +51,3 @@ Tässä ohjeessa kerrotaan, miten tehtävienhallintasovellusta ylläpidetään j
   Pidä sovelluksen riippuvuudet ja käyttöjärjestelmä ajan tasalla.
 - **Turvallisuus:**  
   Varmista, että salasanat tallennetaan hash-muodossa ja että palvelin on suojattu ulkopuolisilta hyökkäyksiltä (esim. palomuuri, HTTPS).
-
----
-
-**Lisätietoa ja apua:**
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [Express Documentation](https://expressjs.com/)
-- [GitHub Issues](https://github.com/) – raportoi ongelmat ja seuraa kehitystä
-
-Näiden ohjeiden avulla voit ylläpitää tehtävienhallintasovellusta ja varmistaa sen
