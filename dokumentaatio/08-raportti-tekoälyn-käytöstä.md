@@ -32,11 +32,9 @@ Tekoälyn käyttö oli sujuvaa, koska olin jo aiemmin käyttänyt vastaavia työ
 
 ## 🗓 Tekoälyn käyttö 
 
-![AI](../kuvat/kuva.PNG)
+![AI](../kuvat/ai.PNG)
 
-![AI](../kuvat/personal.png)
-
-![AI](../kuvat/kuva.PNG)
+![AI](../kuvat/ai1.PNG)
 
 ![AI](../kuvat/ai2.PNG)
 
