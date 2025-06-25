@@ -3,7 +3,7 @@ const taskTitle = document.getElementById('task-title');
 const taskDesc = document.getElementById('task-desc');
 const taskList = document.getElementById('task-list');
 
-// Remove legacy localStorage keys except currentUser
+// Pois kaikki vanhat tallennetut tiedot localStoragesta, säästää currentUserin
 Object.keys(localStorage).forEach(key => {
   if (key !== 'currentUser') localStorage.removeItem(key);
 });
@@ -17,14 +17,16 @@ async function fetchTodos() {
 function renderTodos(todos) {
   taskList.innerHTML = '';
   todos.forEach(todo => {
-    if (todo.completed) return; // Only show active (not done) todos
+    if (todo.completed) return; // näyttää vain tekemättömät tehtävät
     const li = document.createElement('li');
     li.className = 'task-item';
     li.innerHTML = `
       <span class="task-title">${escapeHtml(todo.text)}</span>
       <span class="task-desc">${escapeHtml(todo.description || '')}</span>
-      <input type="checkbox" class="task-checkbox" data-id="${todo._id}" title="Mark as done">
-      <button data-id="${todo._id}" class="delete-btn">Delete</button>
+      <div class="task-actions">
+        <button class="delete-btn" data-id="${todo._id}">Delete</button>
+        <input type="checkbox" class="task-checkbox" data-id="${todo._id}" title="Mark as done">
+      </div>
     `;
     taskList.appendChild(li);
   });
@@ -55,7 +57,7 @@ if (taskForm) {
   };
 }
 
-// Creating a todo:
+// Luo todo:
 async function createTodo(text, description) {
   await fetch('/api/todos', {
     method: 'POST',

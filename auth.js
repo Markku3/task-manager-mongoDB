@@ -49,5 +49,4 @@ authForm.onsubmit = async function (e) {
 
 
 
-// Set initial mode
 setMode(true);

@@ -34,26 +34,27 @@ const Todo = mongoose.model('Todo', todoSchema);
 app.use(cors());
 app.use(express.json());
 app.use(session({
-  secret: 'your-secret-key', // use a strong secret in production!
+  secret: 'your-secret-key', // tosi turvallinen avain huehue, vaihda jos julkaiset oikeasti
   resave: false,
   saveUninitialized: false,
-  cookie: { secure: false } // set to true if using HTTPS
+  cookie: { secure: false } // aseta 'true' HTTPS:ssä
 }));
 
-// Set view engine to EJS
+// asetetaan view engine EJS
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-// Serve all static files (JS, CSS, images)
+// (JS, CSS, images)
 app.use(express.static(__dirname));
 
-// Routing for pages
+//  Reitit sivuille
 app.get('/', (req, res) => res.render('index'));
 app.get('/auth', (req, res) => res.render('auth'));
 app.get('/personal', (req, res) => res.render('personal'));
 app.get('/index', (req, res) => res.render('index'));
+app.get('/gdpr', (req, res) => res.render('gdpr'));
 
-// --- Registration endpoint ---
+// --- Rekisteröitymisen endpoint ---
 app.post('/api/register', async (req, res) => {
   const { username, password } = req.body;
   if (!username || !password) return res.status(400).json({ error: 'Missing fields' });
@@ -78,7 +79,7 @@ app.post('/api/login', async (req, res) => {
   res.json({ message: 'Login successful', username });
 });
 
-// --- Get current user info ---
+// Uusi endpoint jotta saa tämänhetkisen käyttäjän tiedot
 app.get('/api/me', (req, res) => {
   if (!req.session.user) return res.status(401).json({ error: 'Not authenticated' });
   res.json({ username: req.session.user.username });
@@ -91,7 +92,7 @@ app.post('/api/logout', (req, res) => {
   });
 });
 
-// --- Get all todos for user ---
+//kerätään kaikki todot käyttäjästä
 app.get('/api/todos', async (req, res) => {
   if (!req.session.user) return res.status(401).json({ error: 'Not authenticated' });
   try {
@@ -102,7 +103,7 @@ app.get('/api/todos', async (req, res) => {
   }
 });
 
-// --- Create todo ---
+// Luodaan todo
 app.post('/api/todos', async (req, res) => {
   if (!req.session.user) return res.status(401).json({ error: 'Not authenticated' });
   const { text, description = '' } = req.body;
@@ -121,7 +122,7 @@ app.post('/api/todos', async (req, res) => {
   }
 });
 
-// --- Update todo ---
+//Update todo
 app.put('/api/todos/:id', async (req, res) => {
   if (!req.session.user) return res.status(401).json({ error: 'Not authenticated' });
   const { id } = req.params;
@@ -139,7 +140,7 @@ app.put('/api/todos/:id', async (req, res) => {
   }
 });
 
-// --- Delete todo ---
+//Poistetaan todo
 app.delete('/api/todos/:id', async (req, res) => {
   if (!req.session.user) return res.status(401).json({ error: 'Not authenticated' });
   const { id } = req.params;

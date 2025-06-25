@@ -31,12 +31,12 @@
                 <ul id="task-list-done"></ul>
             </div>
             <footer>
-                <p><a href="/">Back to Task Page</a></p>
+                <p><a href="/" style="color: rgb(98, 178, 178);">Back to Task Page</a> | <a href="/gdpr" style="color: rgb(98, 178, 178);">GDPR Rights</a></p>
             </footer>
         </div>
     </div>
     <script>
-        // Show username in menu using session
+        // Vilkase käyttistä menussa käyttämälä sessiota
         document.addEventListener('DOMContentLoaded', async function() {
             const res = await fetch('/api/me');
             if (res.ok) {
@@ -47,7 +47,7 @@
             }
         });
 
-        // Sign out
+        // Sign out -nappula
         document.getElementById('signout-btn').onclick = async function() {
             await fetch('/api/logout', { method: 'POST' });
             window.location.href = '/auth';

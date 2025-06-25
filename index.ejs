@@ -44,7 +44,7 @@
             }
         });
 
-        // Sign out
+        // Sign out -nappula
         document.getElementById('signout-btn').onclick = async function() {
             await fetch('/api/logout', { method: 'POST' });
             window.location.href = '/auth';
