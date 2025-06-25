@@ -50,4 +50,8 @@
 - **Päivitykset:**  
   Pidä sovelluksen riippuvuudet ja käyttöjärjestelmä ajan tasalla.
 - **Turvallisuus:**  
+<<<<<<< HEAD
   Varmista, että salasanat tallennetaan hash-muodossa ja että palvelin on suojattu ulkopuolisilta hyökkäyksiltä (esim. palomuuri, HTTPS).
+=======
+  Varmista, että salasanat tallennetaan hash-muodossa ja että palvelin on suojattu ulkopuolisilta hyökkäyksiltä (esim. palomuuri, HTTPS).
+>>>>>>> f34c93c17d941052ef26a16eb9f06b0bc2b2f4d4

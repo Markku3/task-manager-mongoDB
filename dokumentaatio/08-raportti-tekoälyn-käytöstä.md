@@ -38,4 +38,8 @@ Tekoälyn käyttö oli sujuvaa, koska olin jo aiemmin käyttänyt vastaavia työ
 
 ![AI](../kuvat/ai2.PNG)
 
+<<<<<<< HEAD
 ![AI](../kuvat/ai3.PNG)
+=======
+![AI](../kuvat/ai3.PNG)
+>>>>>>> f34c93c17d941052ef26a16eb9f06b0bc2b2f4d4

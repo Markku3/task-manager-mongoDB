@@ -68,4 +68,4 @@ Aloitettiin sovelluksen käytön seuranta ja käyttäjäpalautteen kerääminen.
 
 ## Yhteenveto
 
-Projektin toteutus eteni suunnitelman mukaisesti vaihe vaiheelta. Suunnitteluvaiheessa määritin selkeät tavoitteet ja toiminnot, joiden pohjalta kehitys eteni. Kehitysvaiheessa keskityttiin ydintoimintoihin ja käyttöliittymän selkeyteen. Testausvaiheessa varmistettiin toimivuus ja tietoturva. Julkaisun jälkeen sovellusta seurataan ja kehitetään edelleen käyttäjäpalautteen perusteella.
+Projektin toteutus eteni suunnitelman mukaisesti vaihe vaiheelta. Suunnitteluvaiheessa määriteltiin selkeät tavoitteet ja toiminnot, joiden pohjalta kehitys eteni. Kehitysvaiheessa keskityttiin ydintoimintoihin ja käyttöliittymän selkeyteen. Testausvaiheessa varmistettiin toimivuus ja tietoturva. Julkaisun jälkeen sovellusta seurataan ja kehitetään edelleen käyttäjäpalautteen perusteella.
