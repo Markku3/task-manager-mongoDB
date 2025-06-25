@@ -14,7 +14,7 @@ Tämä projekti on yksinkertainen web-pohjainen tehtävienhallintasovellus (todo
 
 1. **Kloonaa repositorio:**
    ```bash
-   git clone https://github.com/<käyttäjänimi>/<repo>.git
+   git clone https://github.com/<käyttäjänimi>/<repo>.git](https://github.com/Markku3/task-manager-mongoDB.git
    cd <repo>
    ```
 
