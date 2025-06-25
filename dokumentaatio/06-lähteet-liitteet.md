@@ -20,3 +20,5 @@
 -  Youtube. [EJS](https://www.youtube.com/@WebDevWizard0/shorts)
 -  Youtube. [Todo inspo](https://www.youtube.com/watch?v=THEKW1gITJI)
 -  GDPR. [GDPR Eurooppa](https://europa.eu/youreurope/business/dealing-with-customers/data-protection/data-protection-gdpr/index_fi.htm)
+-  Youtube. [MongoDB Compass](https://www.youtube.com/watch?v=bJSj1a84I20)
+-  Youtube. [MongoDB Compass](https://www.youtube.com/watch?v=TCTfP5BTWGQ)
