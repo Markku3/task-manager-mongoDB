@@ -28,4 +28,4 @@ CRUD-toiminnot • Käyttäjätunnukset • MongoDB • Responsiivinen käyttöl
 
 ---
 
-> **Syvenny dokumentaatioon yllä olevista linkeistä ja
+> **Syvenny dokumentaatioon yllä olevista linkeistä
