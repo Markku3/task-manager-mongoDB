@@ -27,26 +27,30 @@ Aiemmin tehtäviä hallittiin paperilla, muistilapuilla tai useissa eri sovelluk
 
 ## Graafinen linjaus
 
-- Moderni ja minimalistinen ulkoasu
-- Väripaletti: tummat sävyt, neon-värit korostuksina
-- Selkeät fontit ja ikonit
+- **Ydinarvot:** Selkeys, helppokäyttöisyys, moderni/futuristimem ilme
+- **Väripaletti:** Tumma pohja, korostevärit tehtävien tilan mukaan
+- **Typografia:** Selkeät ja helposti luettavat fontit
+- **Kuvakkeet:** Yksinkertaiset ikonit tehtävien tilan ja toimintojen ilmaisemiseen
 
 ## Jatkokehitysideat
 
-- Tehtävien priorisointi ja deadline-toiminnot
-- Ilmoitukset ja muistutukset
-- Tehtävien jakaminen muiden käyttäjien kanssa
+- Tehtävien deadline ja muistutukset
+- Tehtävien priorisointi ja kategorisointi
+- Synkronointi mobiililaitteiden kanssa
+- Kehittyneempi tietoturva-aspekt (esim. XSS)
 
 ## Esteettömyys ja käytettävyys
 
-- Hyvä kontrasti ja selkeät fontit
+- Riittävä kontrasti ja selkeät värit
 - Kaikki toiminnot käytettävissä näppäimistöllä
-- Responsiivinen eri laitteille
+- Responsiivinen ulkoasu eri laitteille
+- Selkeät painikkeet ja lomakkeet
 
 ## Tietoturva
 
 - Salasanojen hashays bcryptillä
-- Istuntokohtainen kirjautuminen
+- Istuntopohjainen autentikointi
+- Tietokantakyselyiden suojaus
 - Säännölliset päivitykset ja varmuuskopiot
 
 ## Käyttötapaukset
